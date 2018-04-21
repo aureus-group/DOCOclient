@@ -1,0 +1,12 @@
+Parts of the distribution package of this software have been taken from other
+open source software packages and components. The following list references
+these software components as well as their licenses.
+
+Software components:
+* asciidoctor, default theme
+* asciidoctor, included fonts
+
+License, copyright notice and URL:
+* MIT license (https://opensource.org/licenses/MIT)
+* Copyright (C) 2014-2018 OpenDevise Inc. and the Asciidoctor Project
+* https://github.com/asciidoctor/asciidoctor-pdf

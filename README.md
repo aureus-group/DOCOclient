@@ -4,6 +4,8 @@ DOCOclient is a piece of software that enables you to make repetitive documentat
 
 DOCOclient is the first part of a suite of software products called DOCO (DOcument COmpiler). The terminology used by DOCO for the reusable document parts is "recipe" and "ingredients". A recipe is an asciidoctor document (.adoc extension) that uses the "include::" directive to point to other .adoc files, which are called ingredients.
 
+DOCO closes the gap between fully automated documentation creation software (like invoicing, account statements, etc) and manual document creation or repetitive, similar documents.
+
 ## Advantages
 * Separation of layout, variable data and text
 * Allows you to focus on writing your documentation

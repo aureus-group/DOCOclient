@@ -46,6 +46,8 @@ We chose to use spreadsheets for the end-user to supply variable input into docu
 
 Consider the following example. A proposal document for the supply and installation of a winch system at a boat ramp would include details regarding the maximum weight of a boat, the angle and length of the ramp, the tides, etc. Based on this information an appropriate winch, pulleys, and cable can be proposed. By entering the inputs in a spreadsheet, the spreadsheet software can calculate which equipment is suitable for the job. Those requirements can then be incorporated in the proposal document.
 
+For new revisions of a document, you can simply (copy the spreadsheet and) update the values, without having to re-enter all data. Also, the spreadsheet format keeps all relevant data together for quick referencing. This prevents you from scrolling through pages of documentation in order to find the detail you are looking for.
+
 ## Ingredients
 The recipe-centric approach that DOCO takes, recognises that every document across your organisation contains parts that are similar. Think of a contractual details, a disclaimer notice, a page outlining contact details of stakeholders inside a project. By defining those document parts only once, it allows you to not only re-use them but also to update them in a single location.
 
@@ -79,7 +81,7 @@ In order to make use of all features of DOCOclient, you should have the followin
 Please note that asciidoctor and asciidoctor-pdf have their own software requirements.
 
 # Installation
-At this point in time, there is no installer available. This will change in the future. For the time being, if you want to use DOCOclient, you will need to either run the source code or run one of the pre-compiled binaries.
+At this point in time, there is no installer available. This will changes in the future. For the time being, if you want to use DOCOclient, you will need to either run the source code or run one of the pre-compiled binaries.
 
 ## Running source code
 The software is written in Python. In order to run DOCOclient directly from the source, you will need to download the source code. The minimum requirements are:
@@ -95,7 +97,7 @@ To install the pre-compiled binaries, download the archive for your operating sy
 There are no pre-compiled binaries for Mac OSX available.
 
 # Configuration and execution
-Inside the extracted archive, you will find a directory called "templates". Inside this directory there are a directory called "recipes" and one called "themes". These directories contains sample recipes and a sample theme, respectively. You are free to copy these directories to other locations.
+Inside the extracted archive, you will find a directory called "templates". Inside this directory there are a directory called "recipes" and one called "themes". These directories contain sample recipes and a sample theme, respectively. You are free to copy these directories to other locations.
 
 When you run the software for the first time, you will be asked to create a configuration file; the following details will need to be provided:
 
@@ -113,9 +115,9 @@ Please note, DOCOclient does not send any of this information to us or any of ou
 
 # Known bugs and limitations
 ## Known bugs
-* There are currently no known bugs.
+* Error handling is not yet optimal. Under certain circumstances, the software can crash. A message should be displayed indicating what the problem is.
 
 ## Limitations
 * The software was not tested on Mac OSX.
-* Reading cell formatting information from .xlsx spreadsheets is currently limited. We are committed to improving the situation. Please email us your suggestions.
+* Reading cell formatting information from .xlsx spreadsheets is currently limited. We are committed to improving the situation. Please let us know your suggestions.
 * Limited testing has been performed on Ubuntu-gnome 16.04 and Windows 10.

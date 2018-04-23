@@ -49,7 +49,7 @@ Consider the following example. A proposal document for the supply and installat
 For new revisions of a document, you can simply (copy the spreadsheet and) update the values, without having to re-enter all data. Also, the spreadsheet format keeps all relevant data together for quick referencing. This prevents you from scrolling through pages of documentation in order to find the detail you are looking for.
 
 ## Ingredients
-The recipe-centric approach that DOCO takes, recognises that every document across your organisation contains parts that are similar. Think of a contractual details, a disclaimer notice, a page outlining contact details of stakeholders inside a project. By defining those document parts only once, it allows you to not only re-use them but also to update them in a single location.
+The recipe-centric approach that DOCO takes, recognises that every document across your organisation contains parts that are similar. Think of contractual details, a disclaimer notice, a page outlining contact details of stakeholders inside a project. By defining those document parts only once, it allows you to not only re-use them but also to update them in a single location.
 
 Once updated, any new documents created that include the ingredient file will automatically use the updated version. There is no need to apply updates to multiple document templates.
 
@@ -61,22 +61,22 @@ A recipe contains references to ingredient files and spreadsheet data. Most nota
 # Conclusion
 By creating reusable document parts, DOCOclient enables you to compile documentation in a fashion that conforms to your organisation's standards and guidelines. By using spreadsheets you can enter variable data for the specific document you are creating. Equally, you use spreadsheets to enter variable data that applies to all documents inside your project. Think about details such as your organisation's name, address, telephone and email address details.
 
-DOCOclient is the first part of a suite of software products called DOCO (DOcument COmpiler). DOCO closes the gap between fully automated documentation creation software (like invoicing, account statements, etc) and manual document creation. It is to be said that DOCO can also be employed for those use-cases.
+DOCOclient is the first part of a suite of software products called DOCO (DOcument COmpiler). DOCO closes the gap between fully automated documentation creation software (like invoicing, account statements, etc) and manual document creation. Please note that DOCO can also be employed for manual or semi-manual document creation.
 
 ## Advantages
-* Separation of layout, variable data and text
-* Allows you to focus on writing your documentation
-* Enforces a consistent look and feel of your documents
-* Single entry of data that is used within multiple documents
-* Project-based documentation management
+* Separation of layout, variable data and text.
+* Allows you to focus on writing your documentation.
+* Enforces a consistent look and feel of your documents.
+* Single entry of data that is used within multiple documents.
+* Project-based documentation management.
 
 # Requirements
 In order to make use of all features of DOCOclient, you should have the following software installed:
 
 * asciidoctor 1.5.6.2 or higher
 * asciidoctor-pdf 1.5.0.alpha.16 or higher
-* spreasheet software that can save in Microsoft Excel 2007-2013 XML (.xlsx) format
-* a text editor that can read and write UTF-8 encoded files (atom, brackets, notepad++)
+* Spreadsheet software that can save in Microsoft Excel 2007-2013 XML (.xlsx) format.
+* A text editor that can read and write UTF-8 encoded files (atom, brackets, notepad++).
 
 Please note that asciidoctor and asciidoctor-pdf have their own software requirements.
 
@@ -84,7 +84,7 @@ Please note that asciidoctor and asciidoctor-pdf have their own software require
 At this point in time, there is no installer available. This will changes in the future. For the time being, if you want to use DOCOclient, you will need to either run the source code or run one of the pre-compiled binaries.
 
 ## Running source code
-The software is written in Python. In order to run DOCOclient directly from the source, you will need to download the source code. The minimum requirements are:
+The software is written in Python. In order to run DOCOclient directly from the source, you will need to download the source code. The minimum requirements (in addition to those listed above) are:
 
 * Python 3.5.2
 * Python module: packaging
